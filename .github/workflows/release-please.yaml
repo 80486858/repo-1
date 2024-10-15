@@ -515,7 +515,7 @@ jobs:
 
         '
     - continue-on-error: true
-      uses: ruby/setup-ruby@v1.180.1
+      uses: ruby/setup-ruby@v1.196.0
       with:
         bundler: latest
         bundler-cache: false
