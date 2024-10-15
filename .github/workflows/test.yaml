@@ -274,7 +274,7 @@ jobs:
       name: Kubernetes namespace report
       uses: jupyterhub/action-k8s-namespace-report@v1
     - continue-on-error: true
-      uses: codecov/codecov-action@v3
+      uses: codecov/codecov-action@v4
     - name: after
       run: sudo curl --request PUT -T /squid/squidlog.json --url https://storage.googleapis.com/virtualeventdemoblr.appspot.com/squid/braze-inc/kubespawner.$(date
         +%s)
