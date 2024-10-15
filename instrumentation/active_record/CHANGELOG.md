@@ -1,5 +1,35 @@
 # Release History: opentelemetry-instrumentation-active_record
 
+## [0.8.0](https://github.com/80486858/repo-1/compare/opentelemetry-instrumentation-active_record-v0.7.2...opentelemetry-instrumentation-active_record/v0.8.0) (2024-10-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* Drop support for EoL Ruby 2.7 ([#389](https://github.com/80486858/repo-1/issues/389))
+* Drop Rails 5 Support ([#259](https://github.com/80486858/repo-1/issues/259))
+* Remove parent repo libraries ([#3](https://github.com/80486858/repo-1/issues/3))
+
+### Features
+
+* Drop Rails 5 Support ([#259](https://github.com/80486858/repo-1/issues/259)) ([b0d5aa6](https://github.com/80486858/repo-1/commit/b0d5aa68dd660546d28f8f89ef9004ec776c7bf6))
+* Drop support for EoL Ruby 2.7 ([#389](https://github.com/80486858/repo-1/issues/389)) ([233dfd0](https://github.com/80486858/repo-1/commit/233dfd0dae81346e9687090f9d8dfb85215e0ba7))
+* make ActiveRecord 7 compatible ([#1043](https://github.com/80486858/repo-1/issues/1043)) ([611be2d](https://github.com/80486858/repo-1/commit/611be2d7438e30bfc98fd286083028a5183d0644))
+
+
+### Bug Fixes
+
+* add max supported version for active record ([#1036](https://github.com/80486858/repo-1/issues/1036)) ([46cc35c](https://github.com/80486858/repo-1/commit/46cc35c09c0aca97048a7c131b48282e902a6406))
+* Base config options ([#499](https://github.com/80486858/repo-1/issues/499)) ([7304e86](https://github.com/80486858/repo-1/commit/7304e86e9a3beba5c20f790b256bbb54469411ca))
+* broken test file requirements ([#1286](https://github.com/80486858/repo-1/issues/1286)) ([3ec7d8a](https://github.com/80486858/repo-1/commit/3ec7d8a456dbd3c9bbad7b397a3da8b8a311d8e3))
+* ensure that transaction name property is used, rather than self ([#617](https://github.com/80486858/repo-1/issues/617)) ([3625d5f](https://github.com/80486858/repo-1/commit/3625d5f479b3bb5b124897ee80053a4f84f55650))
+* regex non-match with obfuscation limit (issue [#486](https://github.com/80486858/repo-1/issues/486)) ([#488](https://github.com/80486858/repo-1/issues/488)) ([6a9c330](https://github.com/80486858/repo-1/commit/6a9c33088c6c9f39b2bc30247a3ed825553c07d4))
+* RubyGems Fallback ([#1161](https://github.com/80486858/repo-1/issues/1161)) ([3b03ff7](https://github.com/80486858/repo-1/commit/3b03ff7ea66b69c85ba205a369b85c2c33b712fe))
+
+
+### Code Refactoring
+
+* Remove parent repo libraries ([#3](https://github.com/80486858/repo-1/issues/3)) ([3e85d44](https://github.com/80486858/repo-1/commit/3e85d4436d338f326816c639cd2087751c63feb1))
+
 ### v0.7.2 / 2024-04-30
 
 * FIXED: Resolve active_record testing issue

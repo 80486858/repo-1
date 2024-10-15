@@ -1,5 +1,35 @@
 # Release History: opentelemetry-instrumentation-sinatra
 
+## [0.24.0](https://github.com/80486858/repo-1/compare/opentelemetry-instrumentation-sinatra-v0.23.5...opentelemetry-instrumentation-sinatra/v0.24.0) (2024-10-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* Drop support for EoL Ruby 2.7 ([#389](https://github.com/80486858/repo-1/issues/389))
+* Remove parent repo libraries ([#3](https://github.com/80486858/repo-1/issues/3))
+
+### Features
+
+* Drop support for EoL Ruby 2.7 ([#389](https://github.com/80486858/repo-1/issues/389)) ([233dfd0](https://github.com/80486858/repo-1/commit/233dfd0dae81346e9687090f9d8dfb85215e0ba7))
+* Use Rack Middleware Helper ([#428](https://github.com/80486858/repo-1/issues/428)) ([78a137e](https://github.com/80486858/repo-1/commit/78a137e6e95e4f4358e9a0f46d5e3e929e9f35be))
+* use rack middleware in sinatra middleware ([#54](https://github.com/80486858/repo-1/issues/54)) ([65fdcef](https://github.com/80486858/repo-1/commit/65fdcef7c981c46f3f2b07b31b933402e8b799f0))
+
+
+### Bug Fixes
+
+* add exceptions to sinatra spans, ruboproof test. ([#328](https://github.com/80486858/repo-1/issues/328)) ([d4d404c](https://github.com/80486858/repo-1/commit/d4d404c0d43de66e02fd0fd74192b6722e5b7476))
+* add exceptions to sinatra spans. ([#133](https://github.com/80486858/repo-1/issues/133)) ([30db869](https://github.com/80486858/repo-1/commit/30db869bec7f51f3e44c3a741876557a67a28527))
+* Base config options ([#499](https://github.com/80486858/repo-1/issues/499)) ([7304e86](https://github.com/80486858/repo-1/commit/7304e86e9a3beba5c20f790b256bbb54469411ca))
+* broken test file requirements ([#1286](https://github.com/80486858/repo-1/issues/1286)) ([3ec7d8a](https://github.com/80486858/repo-1/commit/3ec7d8a456dbd3c9bbad7b397a3da8b8a311d8e3))
+* regex non-match with obfuscation limit (issue [#486](https://github.com/80486858/repo-1/issues/486)) ([#488](https://github.com/80486858/repo-1/issues/488)) ([6a9c330](https://github.com/80486858/repo-1/commit/6a9c33088c6c9f39b2bc30247a3ed825553c07d4))
+* sinatra to stop using api env getter ([#1038](https://github.com/80486858/repo-1/issues/1038)) ([2ac008e](https://github.com/80486858/repo-1/commit/2ac008e02975ecc3c8a024fef5b1a2aca4a8a609))
+* update server instrumentation to not reflect 400 status as error ([#1076](https://github.com/80486858/repo-1/issues/1076)) ([a8a596f](https://github.com/80486858/repo-1/commit/a8a596fbac5b0c565063179be8d1ce91f9e2dcdd))
+
+
+### Code Refactoring
+
+* Remove parent repo libraries ([#3](https://github.com/80486858/repo-1/issues/3)) ([3e85d44](https://github.com/80486858/repo-1/commit/3e85d4436d338f326816c639cd2087751c63feb1))
+
 ### v0.24.0 / 2024-07-02
 
 * ADDED: Make Rack install optional for sinatra

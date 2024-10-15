@@ -1,5 +1,40 @@
 # Release History: opentelemetry-instrumentation-rack
 
+## [0.25.0](https://github.com/80486858/repo-1/compare/opentelemetry-instrumentation-rack-v0.24.5...opentelemetry-instrumentation-rack/v0.25.0) (2024-10-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* Drop support for EoL Ruby 2.7 ([#389](https://github.com/80486858/repo-1/issues/389))
+* Remove retain_middleware_names Rack Option ([#356](https://github.com/80486858/repo-1/issues/356))
+* Remove parent repo libraries ([#3](https://github.com/80486858/repo-1/issues/3))
+
+### Features
+
+* Add experimental traceresponse propagator to Rack instrumentation ([#182](https://github.com/80486858/repo-1/issues/182)) ([4e2d98b](https://github.com/80486858/repo-1/commit/4e2d98bd635e099518fc05041057e94e967186d5))
+* Drop support for EoL Ruby 2.7 ([#389](https://github.com/80486858/repo-1/issues/389)) ([233dfd0](https://github.com/80486858/repo-1/commit/233dfd0dae81346e9687090f9d8dfb85215e0ba7))
+* Remove retain_middleware_names Rack Option ([#356](https://github.com/80486858/repo-1/issues/356)) ([d84a8cb](https://github.com/80486858/repo-1/commit/d84a8cb949c5f846174c8136a2b98e06bf265b75))
+* Use Rack::Events for instrumentation ([#342](https://github.com/80486858/repo-1/issues/342)) ([c179d3b](https://github.com/80486858/repo-1/commit/c179d3b0f8c69c03867b84c667f98abb66f46a41))
+
+
+### Bug Fixes
+
+* Base config options ([#499](https://github.com/80486858/repo-1/issues/499)) ([7304e86](https://github.com/80486858/repo-1/commit/7304e86e9a3beba5c20f790b256bbb54469411ca))
+* bring http.request.header and http.response.header in line with … ([#111](https://github.com/80486858/repo-1/issues/111)) ([1af9fc1](https://github.com/80486858/repo-1/commit/1af9fc1a35264dcaf3bd0d88234e8ad8dacdaa22))
+* bring http.request.header and http.response.header in line with semantic conventions. ([1af9fc1](https://github.com/80486858/repo-1/commit/1af9fc1a35264dcaf3bd0d88234e8ad8dacdaa22))
+* broken test file requirements ([#1286](https://github.com/80486858/repo-1/issues/1286)) ([3ec7d8a](https://github.com/80486858/repo-1/commit/3ec7d8a456dbd3c9bbad7b397a3da8b8a311d8e3))
+* Ensure Rack Events Handler Exists ([#519](https://github.com/80486858/repo-1/issues/519)) ([823883b](https://github.com/80486858/repo-1/commit/823883bab58d90c4b92937b25c5acf582bf81fa3))
+* rack to stop using api env getter ([#1037](https://github.com/80486858/repo-1/issues/1037)) ([e53c8a7](https://github.com/80486858/repo-1/commit/e53c8a7db9ce396d782cc60816c470c4114ad13b))
+* regex non-match with obfuscation limit (issue [#486](https://github.com/80486858/repo-1/issues/486)) ([#488](https://github.com/80486858/repo-1/issues/488)) ([6a9c330](https://github.com/80486858/repo-1/commit/6a9c33088c6c9f39b2bc30247a3ed825553c07d4))
+* Remove inline linter rules ([#608](https://github.com/80486858/repo-1/issues/608)) ([bc4a937](https://github.com/80486858/repo-1/commit/bc4a937ed2a0d1898f0f19ae45a2b3a0ef9a067c))
+* update server instrumentation to not reflect 400 status as error ([#1076](https://github.com/80486858/repo-1/issues/1076)) ([a8a596f](https://github.com/80486858/repo-1/commit/a8a596fbac5b0c565063179be8d1ce91f9e2dcdd))
+* use monotonic clock where possible ([#782](https://github.com/80486858/repo-1/issues/782)) ([0b7d47b](https://github.com/80486858/repo-1/commit/0b7d47beac92895a03a87ecceff01e76a56ceeca))
+
+
+### Code Refactoring
+
+* Remove parent repo libraries ([#3](https://github.com/80486858/repo-1/issues/3)) ([3e85d44](https://github.com/80486858/repo-1/commit/3e85d4436d338f326816c639cd2087751c63feb1))
+
 ### v0.24.5 / 2024-06-18
 
 * FIXED: Relax otel common gem constraints

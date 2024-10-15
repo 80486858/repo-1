@@ -1,5 +1,31 @@
 # Release History: opentelemetry-instrumentation-active_model_serializers
 
+## [0.21.0](https://github.com/80486858/repo-1/compare/opentelemetry-instrumentation-active_model_serializers-v0.20.1...opentelemetry-instrumentation-active_model_serializers/v0.21.0) (2024-10-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* Drop support for EoL Ruby 2.7 ([#389](https://github.com/80486858/repo-1/issues/389))
+* Remove parent repo libraries ([#3](https://github.com/80486858/repo-1/issues/3))
+
+### Features
+
+* Drop support for EoL Ruby 2.7 ([#389](https://github.com/80486858/repo-1/issues/389)) ([233dfd0](https://github.com/80486858/repo-1/commit/233dfd0dae81346e9687090f9d8dfb85215e0ba7))
+
+
+### Bug Fixes
+
+* `ActiveSupport` constant conflict in Active Model Serializers instrumentation ([#1072](https://github.com/80486858/repo-1/issues/1072)) ([46020cc](https://github.com/80486858/repo-1/commit/46020cc0ab9826b362854a6a913f30996ac528a2))
+* Base config options ([#499](https://github.com/80486858/repo-1/issues/499)) ([7304e86](https://github.com/80486858/repo-1/commit/7304e86e9a3beba5c20f790b256bbb54469411ca))
+* broken test file requirements ([#1286](https://github.com/80486858/repo-1/issues/1286)) ([3ec7d8a](https://github.com/80486858/repo-1/commit/3ec7d8a456dbd3c9bbad7b397a3da8b8a311d8e3))
+* regex non-match with obfuscation limit (issue [#486](https://github.com/80486858/repo-1/issues/486)) ([#488](https://github.com/80486858/repo-1/issues/488)) ([6a9c330](https://github.com/80486858/repo-1/commit/6a9c33088c6c9f39b2bc30247a3ed825553c07d4))
+* RubyGems Fallback ([#1161](https://github.com/80486858/repo-1/issues/1161)) ([3b03ff7](https://github.com/80486858/repo-1/commit/3b03ff7ea66b69c85ba205a369b85c2c33b712fe))
+
+
+### Code Refactoring
+
+* Remove parent repo libraries ([#3](https://github.com/80486858/repo-1/issues/3)) ([3e85d44](https://github.com/80486858/repo-1/commit/3e85d4436d338f326816c639cd2087751c63feb1))
+
 ### v0.20.1 / 2023-06-05
 
 * FIXED: Base config options 

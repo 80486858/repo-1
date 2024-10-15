@@ -1,5 +1,35 @@
 # Release History: opentelemetry-instrumentation-base
 
+## [0.23.0](https://github.com/80486858/repo-1/compare/opentelemetry-instrumentation-base-v0.22.4...opentelemetry-instrumentation-base/v0.23.0) (2024-10-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* GraphQL instrumentation: support new tracing API ([#453](https://github.com/80486858/repo-1/issues/453))
+* Drop support for EoL Ruby 2.7 ([#389](https://github.com/80486858/repo-1/issues/389))
+* Remove parent repo libraries ([#3](https://github.com/80486858/repo-1/issues/3))
+* This requires upgrading both the SDK and Instrumentation gem in tandem
+
+### Features
+
+* add default options config helper + env var config option support ([#994](https://github.com/80486858/repo-1/issues/994)) ([9f760ee](https://github.com/80486858/repo-1/commit/9f760ee5386e829d985b421835c17b12a67e8cf8))
+* Drop support for EoL Ruby 2.7 ([#389](https://github.com/80486858/repo-1/issues/389)) ([233dfd0](https://github.com/80486858/repo-1/commit/233dfd0dae81346e9687090f9d8dfb85215e0ba7))
+* GraphQL instrumentation: support new tracing API ([#453](https://github.com/80486858/repo-1/issues/453)) ([5d87786](https://github.com/80486858/repo-1/commit/5d87786984b42e795af4646a3e9ca240c56573e9))
+* Validate Using Enums ([#1132](https://github.com/80486858/repo-1/issues/1132)) ([7cd4b10](https://github.com/80486858/repo-1/commit/7cd4b10ba516cecbb15a40dbe3bd5ed3860b1f88))
+
+
+### Bug Fixes
+
+* regex non-match with obfuscation limit (issue [#486](https://github.com/80486858/repo-1/issues/486)) ([#488](https://github.com/80486858/repo-1/issues/488)) ([6a9c330](https://github.com/80486858/repo-1/commit/6a9c33088c6c9f39b2bc30247a3ed825553c07d4))
+* Remove inline linter rules ([#608](https://github.com/80486858/repo-1/issues/608)) ([bc4a937](https://github.com/80486858/repo-1/commit/bc4a937ed2a0d1898f0f19ae45a2b3a0ef9a067c))
+* RubyGems Fallback ([#1161](https://github.com/80486858/repo-1/issues/1161)) ([3b03ff7](https://github.com/80486858/repo-1/commit/3b03ff7ea66b69c85ba205a369b85c2c33b712fe))
+
+
+### Code Refactoring
+
+* Remove parent repo libraries ([#3](https://github.com/80486858/repo-1/issues/3)) ([3e85d44](https://github.com/80486858/repo-1/commit/3e85d4436d338f326816c639cd2087751c63feb1))
+* Use Registry Gem ([#1220](https://github.com/80486858/repo-1/issues/1220)) ([e533817](https://github.com/80486858/repo-1/commit/e533817ba387bbfd6270e5c4d0ae42452dd7d9dc))
+
 ### v0.22.4 / 2024-06-18
 
 * FIXED: Relax otel common gem constraints

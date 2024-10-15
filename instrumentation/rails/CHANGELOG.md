@@ -1,5 +1,41 @@
 # Release History: opentelemetry-instrumentation-rails
 
+## [0.31.0](https://github.com/80486858/repo-1/compare/opentelemetry-instrumentation-rails-v0.30.2...opentelemetry-instrumentation-rails/v0.31.0) (2024-10-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* Drop support for EoL Ruby 2.7 ([#389](https://github.com/80486858/repo-1/issues/389))
+* Drop Rails 5 Support ([#259](https://github.com/80486858/repo-1/issues/259))
+* Update Instrumentations ([#303](https://github.com/80486858/repo-1/issues/303))
+* remove enable_recognize_route and span_naming options ([#214](https://github.com/80486858/repo-1/issues/214))
+* Remove parent repo libraries ([#3](https://github.com/80486858/repo-1/issues/3))
+
+### Features
+
+* Drop Rails 5 Support ([#259](https://github.com/80486858/repo-1/issues/259)) ([b0d5aa6](https://github.com/80486858/repo-1/commit/b0d5aa68dd660546d28f8f89ef9004ec776c7bf6))
+* Drop support for EoL Ruby 2.7 ([#389](https://github.com/80486858/repo-1/issues/389)) ([233dfd0](https://github.com/80486858/repo-1/commit/233dfd0dae81346e9687090f9d8dfb85215e0ba7))
+* move activesupport notification subsciber out of action_view gem ([#933](https://github.com/80486858/repo-1/issues/933)) ([e099eca](https://github.com/80486858/repo-1/commit/e099ecaed370211869b1fb26b2a8abf5d0027b97))
+* name ActionPack spans with the HTTP method and route ([#123](https://github.com/80486858/repo-1/issues/123)) ([4a65b3d](https://github.com/80486858/repo-1/commit/4a65b3d7f76603eba1d958964c64093f47846929))
+* OTel Railtie ([#1111](https://github.com/80486858/repo-1/issues/1111)) ([dc25f73](https://github.com/80486858/repo-1/commit/dc25f73b85ec0684008d7927559cf44e2a2429ec))
+* Update Instrumentations ([#303](https://github.com/80486858/repo-1/issues/303)) ([5441260](https://github.com/80486858/repo-1/commit/54412608511e42591f5775e1d805682147e3bb94))
+
+
+### Bug Fixes
+
+* Base config options ([#499](https://github.com/80486858/repo-1/issues/499)) ([7304e86](https://github.com/80486858/repo-1/commit/7304e86e9a3beba5c20f790b256bbb54469411ca))
+* broken test file requirements ([#1286](https://github.com/80486858/repo-1/issues/1286)) ([3ec7d8a](https://github.com/80486858/repo-1/commit/3ec7d8a456dbd3c9bbad7b397a3da8b8a311d8e3))
+* bump rails instrumentation dependency on action_pack instrumentation ([#175](https://github.com/80486858/repo-1/issues/175)) ([e3b9e0e](https://github.com/80486858/repo-1/commit/e3b9e0e197ff0cb5c489c77d27fb5be23052797c))
+* instrumentation of Rails 7 ([#993](https://github.com/80486858/repo-1/issues/993)) ([ee6d84d](https://github.com/80486858/repo-1/commit/ee6d84daeb51fef49a55b05c148a403e4c8d1963))
+* regex non-match with obfuscation limit (issue [#486](https://github.com/80486858/repo-1/issues/486)) ([#488](https://github.com/80486858/repo-1/issues/488)) ([6a9c330](https://github.com/80486858/repo-1/commit/6a9c33088c6c9f39b2bc30247a3ed825553c07d4))
+* remove enable_recognize_route and span_naming options ([#214](https://github.com/80486858/repo-1/issues/214)) ([ea604aa](https://github.com/80486858/repo-1/commit/ea604aa77e0d4c26e1d178877dea75c795f039ee))
+* RubyGems Fallback ([#1161](https://github.com/80486858/repo-1/issues/1161)) ([3b03ff7](https://github.com/80486858/repo-1/commit/3b03ff7ea66b69c85ba205a369b85c2c33b712fe))
+
+
+### Code Refactoring
+
+* Remove parent repo libraries ([#3](https://github.com/80486858/repo-1/issues/3)) ([3e85d44](https://github.com/80486858/repo-1/commit/3e85d4436d338f326816c639cd2087751c63feb1))
+
 ### v0.31.0 / 2024-07-02
 
 * DOCS: Fix CHANGELOGs to reflect a past breaking change

@@ -1,5 +1,40 @@
 # Release History: opentelemetry-instrumentation-action_pack
 
+## [0.10.0](https://github.com/80486858/repo-1/compare/opentelemetry-instrumentation-action_pack-v0.9.0...opentelemetry-instrumentation-action_pack/v0.10.0) (2024-10-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* Drop support for EoL Ruby 2.7 ([#389](https://github.com/80486858/repo-1/issues/389))
+* Drop Rails 5 Support ([#259](https://github.com/80486858/repo-1/issues/259))
+* remove enable_recognize_route and span_naming options ([#214](https://github.com/80486858/repo-1/issues/214))
+* Remove parent repo libraries ([#3](https://github.com/80486858/repo-1/issues/3))
+
+### Features
+
+* Drop Rails 5 Support ([#259](https://github.com/80486858/repo-1/issues/259)) ([b0d5aa6](https://github.com/80486858/repo-1/commit/b0d5aa68dd660546d28f8f89ef9004ec776c7bf6))
+* Drop support for EoL Ruby 2.7 ([#389](https://github.com/80486858/repo-1/issues/389)) ([233dfd0](https://github.com/80486858/repo-1/commit/233dfd0dae81346e9687090f9d8dfb85215e0ba7))
+* name ActionPack spans with the HTTP method and route ([#123](https://github.com/80486858/repo-1/issues/123)) ([4a65b3d](https://github.com/80486858/repo-1/commit/4a65b3d7f76603eba1d958964c64093f47846929))
+* Use Rack Middleware Helper ([#428](https://github.com/80486858/repo-1/issues/428)) ([78a137e](https://github.com/80486858/repo-1/commit/78a137e6e95e4f4358e9a0f46d5e3e929e9f35be))
+
+
+### Bug Fixes
+
+* Base config options ([#499](https://github.com/80486858/repo-1/issues/499)) ([7304e86](https://github.com/80486858/repo-1/commit/7304e86e9a3beba5c20f790b256bbb54469411ca))
+* broken test file requirements ([#1286](https://github.com/80486858/repo-1/issues/1286)) ([3ec7d8a](https://github.com/80486858/repo-1/commit/3ec7d8a456dbd3c9bbad7b397a3da8b8a311d8e3))
+* declare span_naming option in action_pack instrumentation ([#157](https://github.com/80486858/repo-1/issues/157)) ([274af43](https://github.com/80486858/repo-1/commit/274af43974a6830e883032661bddefbd2bdd0570))
+* Drop Rails dependency for ActiveSupport Instrumentation ([#242](https://github.com/80486858/repo-1/issues/242)) ([c571ece](https://github.com/80486858/repo-1/commit/c571ecee6283e877fb7df3ea2b01acf722410551))
+* instrumentation of Rails 7 ([#993](https://github.com/80486858/repo-1/issues/993)) ([ee6d84d](https://github.com/80486858/repo-1/commit/ee6d84daeb51fef49a55b05c148a403e4c8d1963))
+* regex non-match with obfuscation limit (issue [#486](https://github.com/80486858/repo-1/issues/486)) ([#488](https://github.com/80486858/repo-1/issues/488)) ([6a9c330](https://github.com/80486858/repo-1/commit/6a9c33088c6c9f39b2bc30247a3ed825553c07d4))
+* remove enable_recognize_route and span_naming options ([#214](https://github.com/80486858/repo-1/issues/214)) ([ea604aa](https://github.com/80486858/repo-1/commit/ea604aa77e0d4c26e1d178877dea75c795f039ee))
+* RubyGems Fallback ([#1161](https://github.com/80486858/repo-1/issues/1161)) ([3b03ff7](https://github.com/80486858/repo-1/commit/3b03ff7ea66b69c85ba205a369b85c2c33b712fe))
+* use rails request's filtered path as http.target attribute ([#1125](https://github.com/80486858/repo-1/issues/1125)) ([ad51972](https://github.com/80486858/repo-1/commit/ad51972e9bdc8ead0e69642056a4935683464dfc))
+
+
+### Code Refactoring
+
+* Remove parent repo libraries ([#3](https://github.com/80486858/repo-1/issues/3)) ([3e85d44](https://github.com/80486858/repo-1/commit/3e85d4436d338f326816c639cd2087751c63feb1))
+
 ### v0.9.0 / 2024-01-09
 
 * BREAKING CHANGE: Use ActiveSupport instead of patches #703 

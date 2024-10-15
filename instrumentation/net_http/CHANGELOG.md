@@ -1,5 +1,36 @@
 # Release History: opentelemetry-instrumentation-net_http
 
+## [0.23.0](https://github.com/80486858/repo-1/compare/opentelemetry-instrumentation-net_http-v0.22.6...opentelemetry-instrumentation-net_http/v0.23.0) (2024-10-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* Drop support for EoL Ruby 2.7 ([#389](https://github.com/80486858/repo-1/issues/389))
+* Remove parent repo libraries ([#3](https://github.com/80486858/repo-1/issues/3))
+
+### Features
+
+* add net http instrumentation hooks config ([#62](https://github.com/80486858/repo-1/issues/62)) ([d9842bf](https://github.com/80486858/repo-1/commit/d9842bf145aceb702777e294b29e7480d41e900b))
+* Drop support for EoL Ruby 2.7 ([#389](https://github.com/80486858/repo-1/issues/389)) ([233dfd0](https://github.com/80486858/repo-1/commit/233dfd0dae81346e9687090f9d8dfb85215e0ba7))
+
+
+### Bug Fixes
+
+* add untraced check to the Net::HTTP connect instrumentation ([#213](https://github.com/80486858/repo-1/issues/213)) ([a014481](https://github.com/80486858/repo-1/commit/a014481f965caed5c8411cfd5b20c07ebba543b4))
+* Base config options ([#499](https://github.com/80486858/repo-1/issues/499)) ([7304e86](https://github.com/80486858/repo-1/commit/7304e86e9a3beba5c20f790b256bbb54469411ca))
+* broken test file requirements ([#1286](https://github.com/80486858/repo-1/issues/1286)) ([3ec7d8a](https://github.com/80486858/repo-1/commit/3ec7d8a456dbd3c9bbad7b397a3da8b8a311d8e3))
+* change net attribute names to match the semantic conventions spec for http ([#999](https://github.com/80486858/repo-1/issues/999)) ([0b1d16e](https://github.com/80486858/repo-1/commit/0b1d16efa565f50d465dda957f78e327d6c97d91))
+* clientcontext attrs overwrite in net::http ([#1114](https://github.com/80486858/repo-1/issues/1114)) ([dcf02c8](https://github.com/80486858/repo-1/commit/dcf02c8c9c91b400e42f071d54069ef5b2c6eb94))
+* Drop Rails dependency for ActiveSupport Instrumentation ([#242](https://github.com/80486858/repo-1/issues/242)) ([c571ece](https://github.com/80486858/repo-1/commit/c571ecee6283e877fb7df3ea2b01acf722410551))
+* excessive hash creation on context attr merging ([#1117](https://github.com/80486858/repo-1/issues/1117)) ([bc1291a](https://github.com/80486858/repo-1/commit/bc1291a000abf2a27421bc4d5596d59d142e4055))
+* regex non-match with obfuscation limit (issue [#486](https://github.com/80486858/repo-1/issues/486)) ([#488](https://github.com/80486858/repo-1/issues/488)) ([6a9c330](https://github.com/80486858/repo-1/commit/6a9c33088c6c9f39b2bc30247a3ed825553c07d4))
+* Rename HTTP CONNECT for low level connection spans ([#129](https://github.com/80486858/repo-1/issues/129)) ([efe59ff](https://github.com/80486858/repo-1/commit/efe59ffa50c88689199ad2132aa920b778bd0a67))
+
+
+### Code Refactoring
+
+* Remove parent repo libraries ([#3](https://github.com/80486858/repo-1/issues/3)) ([3e85d44](https://github.com/80486858/repo-1/commit/3e85d4436d338f326816c639cd2087751c63feb1))
+
 ### v0.22.6 / 2024-06-18
 
 * FIXED: Relax otel common gem constraints

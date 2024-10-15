@@ -1,5 +1,36 @@
 # Release History: opentelemetry-instrumentation-que
 
+## [0.9.0](https://github.com/80486858/repo-1/compare/opentelemetry-instrumentation-que-v0.8.1...opentelemetry-instrumentation-que/v0.9.0) (2024-10-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* Drop support for EoL Ruby 2.7 ([#389](https://github.com/80486858/repo-1/issues/389))
+* Remove parent repo libraries ([#3](https://github.com/80486858/repo-1/issues/3))
+
+### Features
+
+* add support for `job_options` argument ([#57](https://github.com/80486858/repo-1/issues/57)) ([47812af](https://github.com/80486858/repo-1/commit/47812af5fc67b22ada1d4749ecdf52532ccf107a))
+* Drop support for EoL Ruby 2.7 ([#389](https://github.com/80486858/repo-1/issues/389)) ([233dfd0](https://github.com/80486858/repo-1/commit/233dfd0dae81346e9687090f9d8dfb85215e0ba7))
+* Instrument Que poller ([#1033](https://github.com/80486858/repo-1/issues/1033)) ([dce5b58](https://github.com/80486858/repo-1/commit/dce5b587f0089abae486f77cc95578fb6b1fdbd4))
+* Validate Using Enums ([#1132](https://github.com/80486858/repo-1/issues/1132)) ([7cd4b10](https://github.com/80486858/repo-1/commit/7cd4b10ba516cecbb15a40dbe3bd5ed3860b1f88))
+
+
+### Bug Fixes
+
+* Base config options ([#499](https://github.com/80486858/repo-1/issues/499)) ([7304e86](https://github.com/80486858/repo-1/commit/7304e86e9a3beba5c20f790b256bbb54469411ca))
+* broken test file requirements ([#1286](https://github.com/80486858/repo-1/issues/1286)) ([3ec7d8a](https://github.com/80486858/repo-1/commit/3ec7d8a456dbd3c9bbad7b397a3da8b8a311d8e3))
+* Drop Rails dependency for ActiveSupport Instrumentation ([#242](https://github.com/80486858/repo-1/issues/242)) ([c571ece](https://github.com/80486858/repo-1/commit/c571ecee6283e877fb7df3ea2b01acf722410551))
+* **que:** Correctly set bulk_enqueue job options ([#573](https://github.com/80486858/repo-1/issues/573)) ([cf5f236](https://github.com/80486858/repo-1/commit/cf5f236e91252bf9d399f8862de6f06d36b5d03d))
+* regex non-match with obfuscation limit (issue [#486](https://github.com/80486858/repo-1/issues/486)) ([#488](https://github.com/80486858/repo-1/issues/488)) ([6a9c330](https://github.com/80486858/repo-1/commit/6a9c33088c6c9f39b2bc30247a3ed825553c07d4))
+* remove `job_options` when using `bulk_enqueue` ([#205](https://github.com/80486858/repo-1/issues/205)) ([6e89c92](https://github.com/80486858/repo-1/commit/6e89c92f189bc6e187da06ea2af4e38531b93601))
+* RubyGems Fallback ([#1161](https://github.com/80486858/repo-1/issues/1161)) ([3b03ff7](https://github.com/80486858/repo-1/commit/3b03ff7ea66b69c85ba205a369b85c2c33b712fe))
+
+
+### Code Refactoring
+
+* Remove parent repo libraries ([#3](https://github.com/80486858/repo-1/issues/3)) ([3e85d44](https://github.com/80486858/repo-1/commit/3e85d4436d338f326816c639cd2087751c63feb1))
+
 ### v0.8.2 / 2024-07-02
 
 * DOCS: Fix CHANGELOGs to reflect a past breaking change
