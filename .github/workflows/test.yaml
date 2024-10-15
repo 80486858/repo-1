@@ -258,7 +258,7 @@ jobs:
 
         '
     - continue-on-error: true
-      uses: jupyterhub/action-k3s-helm@v3
+      uses: jupyterhub/action-k3s-helm@v4
       with:
         docker-enabled: false
         k3s-channel: ${{ matrix.k3s }}
