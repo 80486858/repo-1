@@ -33,7 +33,7 @@ require (
 	github.com/goccy/go-yaml v1.9.5
 	github.com/gogo/protobuf v1.3.2
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da
-	github.com/google/jsonapi v0.0.0-20180618021926-5d047c6bc66b
+	github.com/google/jsonapi v1.0.0
 	github.com/gorilla/websocket v1.4.2
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/hashicorp/go-rootcerts v1.0.2
