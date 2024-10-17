@@ -300,7 +300,7 @@ jobs:
         '
     - continue-on-error: true
       name: Create Pull Request
-      uses: peter-evans/create-pull-request@v5
+      uses: peter-evans/create-pull-request@v7
       with:
         author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
         body: 'Release [${{ github.event.release.tag_name }}](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/${{
