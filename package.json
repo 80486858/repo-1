@@ -30,7 +30,7 @@
     "joi": "17.6.0",
     "lodash": "4.17.21",
     "probot": "12.2.5",
-    "regex-parser": "2.2.11",
+    "regex-parser": "2.3.0",
     "semver": "7.3.7"
   },
   "devDependencies": {
