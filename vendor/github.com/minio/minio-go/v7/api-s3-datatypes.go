@@ -93,6 +93,11 @@ type Version struct {
 	// Only returned by MinIO servers.
 	UserTags URLMap `json:"userTags,omitempty" xml:"UserTags"`
 
+	Internal *struct {
+		K int // Data blocks
+		M int // Parity blocks
+	} `xml:"Internal"`
+
 	isDeleteMarker bool
 }
 
@@ -333,6 +338,22 @@ type CompletePart struct {
 	ChecksumCRC32C string `xml:"ChecksumCRC32C,omitempty"`
 	ChecksumSHA1   string `xml:"ChecksumSHA1,omitempty"`
 	ChecksumSHA256 string `xml:"ChecksumSHA256,omitempty"`
+}
+
+// Checksum will return the checksum for the given type.
+// Will return the empty string if not set.
+func (c CompletePart) Checksum(t ChecksumType) string {
+	switch {
+	case t.Is(ChecksumCRC32C):
+		return c.ChecksumCRC32C
+	case t.Is(ChecksumCRC32):
+		return c.ChecksumCRC32
+	case t.Is(ChecksumSHA1):
+		return c.ChecksumSHA1
+	case t.Is(ChecksumSHA256):
+		return c.ChecksumSHA256
+	}
+	return ""
 }
 
 // completeMultipartUpload container for completing multipart upload.
